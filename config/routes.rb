@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :author, except: [:index, :destroy]
-  resources :song, except: [:index, :destroy]
+  resources :post, except: [:index, :destroy]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
